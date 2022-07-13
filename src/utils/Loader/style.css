@@ -1,0 +1,17 @@
+.loader {
+  width: 64px;
+  height: 64px;
+  margin: 100px auto;
+  border-radius: 50%;
+  border: 6px solid #ff6060;
+  border-color: #ff6060 transparent #ff6060 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

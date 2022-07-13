@@ -1,0 +1,40 @@
+.banner-home {
+  position: relative;
+}
+
+.banner-home h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  max-width: 705px;
+  width: 100%;
+}
+
+.gallery {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  border-radius: 25px 25px 0 0;
+  margin-top: 45px;
+  padding: 55px 0 55px 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-home h1 {
+    font-size: 24px;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    max-width: 217px;
+  }
+  .gallery {
+    margin: 20px 0;
+    padding: 0;
+    background-color: white;
+  }
+}

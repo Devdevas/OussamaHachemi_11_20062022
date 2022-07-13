@@ -1,0 +1,9 @@
+.collapse-section {
+  margin: 30px 100px 100px 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .collapse-section {
+    margin: 20px 0 77px 0;
+  }
+}
